@@ -13,7 +13,7 @@ def wol(lunaMacAddress: bytes, port: int):
 
     magic = b'\xff' * 6 + lunaMacAddress * 16
     s.sendto(magic, ('<broadcast>', port))
-    print("packet sent to:", lunaMacAddress.hex(), "port:",port)
+    print("packet sent to:", lunaMacAddress.hex(), "port:", port)
     print("Magic packet:", magic.hex())
 
 
