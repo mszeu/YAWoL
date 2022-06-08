@@ -19,7 +19,8 @@ def wol(lunaMacAddress: bytes, port: int):
 
 
 if __name__ == '__main__':
-    print("wakeup - by Marco S. Zuppone - msz@msz.eu - https://msz.eu")
+    VERSION = "1.1"
+    print("wakeup - by Marco S. Zuppone - msz@msz.eu - https://msz.eu - version", VERSION)
     print("Program licensed under GNU AFFERO GENERAL PUBLIC LICENSE version 3")
     print("")
     parser = argparse.ArgumentParser(
