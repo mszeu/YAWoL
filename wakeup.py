@@ -30,7 +30,7 @@ if __name__ == '__main__':
     parser.add_argument("MACAddress", type=str,
                         help="The MAC Address of the Ethernet device to wake. Example: 0011223344AA")
     parser.add_argument("--port", type=int, default=7, help="The port where to send the magic packet",
-                        choices=range(0, 65535), )
+                        )
     parser.add_argument("--times", type=int, default=1, help="times to send the magic packet")
     parser.add_argument("--interval", type=int, default=0,
                         help="interval, in seconds, between packets")
