@@ -12,7 +12,9 @@ def wol(lunaMacAddress: bytes, port: int):
     s.setsockopt(socket.SOL_SOCKET, socket.SO_BROADCAST, 1)
 
     magic = b'\xff' * 6 + lunaMacAddress * 16
-    s.sendto(magic, ('<broadcast>', 7))
+    s.sendto(magic, ('<broadcast>', port))
+    print("packet sent to:", lunaMacAddress.hex(), "port:",port)
+    print("Magic packet:", magic.hex())
 
 
 if __name__ == '__main__':
