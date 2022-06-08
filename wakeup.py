@@ -18,6 +18,9 @@ def wol(lunaMacAddress: bytes, port: int):
 
 
 if __name__ == '__main__':
+    print("wakeup - by Marco S. Zuppone - msz@msz.eu - https://msz.eu")
+    print("Program licensed under GNU AFFERO GENERAL PUBLIC LICENSE version 3")
+    print("")
     parser = argparse.ArgumentParser(
         description="Sends the WoL magic packet to the specified MAC address",
         epilog="For any questions, feedback, suggestions, send money (yes...it's a dream I know) you can contact the "
@@ -33,4 +36,4 @@ if __name__ == '__main__':
         exit()
     # pass to wol the mac address of the ethernet port of the appliance to wakeup
     wol(bytearray.fromhex(args.MACAddress), args.port)
-    # bytearray.fromhex('')
+
