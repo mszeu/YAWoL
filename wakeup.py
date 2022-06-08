@@ -16,6 +16,7 @@ def wol(lunaMacAddress: bytes, port: int):
     s.sendto(magic, ('<broadcast>', port))
     print("packet sent to:", lunaMacAddress.hex(), "port:", port)
     print("Magic packet:", magic.hex())
+    print()
 
 
 if __name__ == '__main__':
@@ -52,3 +53,4 @@ if __name__ == '__main__':
         wol(bytearray.fromhex(args.MACAddress), args.port)
         if x + 1 != args.times:
             time.sleep(args.interval)
+    print("The End")
