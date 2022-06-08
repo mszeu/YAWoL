@@ -26,7 +26,7 @@ For more information about the license terms please refer tot the **LICENSE** fi
 ## REQUIREMENTS
 The program requires **Python 3**. It was tested and developed under **Python 3.10**
 
-#Special thanks
+## Special thanks
 &nbsp;
 
 <a href="https://www.jetbrains.com/?from=WoL"><img src=jetbrains-variant-3.png width=100></a>May thanks to <a href="https://www.jetbrains.com/?from=WoL">JetBrains</a> for giving us the <b>Open Source License</b> for free with the full access to their developer suite.
