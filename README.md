@@ -1,4 +1,4 @@
-# WoL - Wake-on-Lan
+# YAWoL - Yet Another Wake-on-Lan utility
 Wake-on-Lan magic packet generator
 
 ## PROGRAM NAME
