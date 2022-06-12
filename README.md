@@ -17,7 +17,7 @@ For more information about the license terms please refer tot the **LICENSE** fi
 
 **wakeup.py** **MACAddress** [**--port** port] [**--times** times] [**--interval** interval]
 - **MACAddress**: is the MAC address of the appliance to wake up (e.g.: *0011223344AF*)
-- **--port**: the destination of the magic packet. If is not specified the default is 7.
+- **--port**: the destination of the magic packet. If it is not specified the default is 7.
 - **--times**: times to send the magic packet. If it is not specified the default is 1.
 - **--interval**: interval, in seconds, between packets. If it is not specified the default is 0.
 ## EXAMPLES
@@ -34,7 +34,7 @@ The program requires **Python 3**. It was tested and developed under **Python 3.
 ## Special thanks
 &nbsp;
 
-<a href="https://www.jetbrains.com/?from=WoL"><img src=images/jetbrains-variant-3.png width=100></a>May thanks to <a href="https://www.jetbrains.com/?from=WoL">JetBrains</a> for giving us the <b>Open Source License</b> for free with the full access to their developer suite.
+<a href="https://www.jetbrains.com/?from=WoL"><img src=images/jetbrains-variant-3.png width=100></a>Many thanks to <a href="https://www.jetbrains.com/?from=WoL">JetBrains</a> for giving us the <b>Open Source License</b> for free with the full access to their developer suite.
 
 ## COPYRIGHT & LICENSE
   Copyright(C) 2022  Marco S. Zuppone - msz@msz.eu - https://msz.eu
