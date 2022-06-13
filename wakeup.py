@@ -20,7 +20,7 @@ def wol(lunaMacAddress: bytes, port: int):
 
 
 if __name__ == '__main__':
-    VERSION = "1.1"
+    VERSION = "1.1.1"
     print("wakeup - by Marco S. Zuppone - msz@msz.eu - https://msz.eu - version", VERSION)
     print("Program licensed under GNU AFFERO GENERAL PUBLIC LICENSE version 3")
     print("")
@@ -32,11 +32,11 @@ if __name__ == '__main__':
                         help="The MAC Address of the Ethernet device to wake. Example: 0011223344AA")
     parser.add_argument("--port", type=int, default=7, help="The port where to send the magic packet",
                         )
-    parser.add_argument("--times", type=int, default=1, help="times to send the magic packet")
+    parser.add_argument("--times", type=int, default=1, help="Times to send the magic packet")
     parser.add_argument("--interval", type=int, default=0,
-                        help="interval, in seconds, between packets")
+                        help="Interval, in seconds, between packets")
     args = parser.parse_args()
-    chars = set('0123456789abcdedABCDEF')
+    chars = set('0123456789abcdefABCDEF')
     if len(args.MACAddress) != 12 and not (all((c in chars) for c in args.MACAddress)):
         print("the MAC Address needs to be hexadecimal without spaces or signs between one byte and the other and the "
               "bytes need to be 6")
