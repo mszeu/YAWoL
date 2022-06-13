@@ -2,31 +2,31 @@
 Wake-on-Lan magic packet generator
 
 ## PROGRAM NAME
- **wakeup**
+ **yawol**
 ## VERSION
 
-**1.1**
+**1.1.1**
 
 ## DESCRIPTION
-**wakeup** is a simple Python script that generates and sends a Wake-on-Lan magic packet to the specified MAC address.
+**yawol** is a simple Python script that generates and sends a Wake-on-Lan magic packet to the specified MAC address.
 
 The script is given **AS IS** and it is under the **AGPL Aferro license 3.0**.
 
 For more information about the license terms please refer to the **LICENSE** file distributed with the project.
 ## USAGE
 
-**wakeup.py** **MACAddress** [**--port** port] [**--times** times] [**--interval** interval]
+**yawol.py** **MACAddress** [**--port** port] [**--times** times] [**--interval** interval]
 - **MACAddress**: is the MAC address of the appliance to wake up (e.g.: *0011223344AF*)
 - **--port**: the destination of the magic packet. If it is not specified the default is 7.
 - **--times**: times to send the magic packet. If it is not specified the default is 1.
 - **--interval**: interval, in seconds, between packets. If it is not specified the default is 0.
 ## EXAMPLES
 
-**wakeup.py** 0011223344AF **--port** 9
+**yawol.py** 0011223344AF **--port** 9
 
-**wakeup.py** 0011223344AF **--port** 9 **--interval** 2 **--times** 10
+**yawol.py** 0011223344AF **--port** 9 **--interval** 2 **--times** 10
 
-**wakeup.py** 0011223344AF
+**yawol.py** 0011223344AF
 
 ## REQUIREMENTS
 The program requires **Python 3**. It was tested and developed under **Python 3.10**

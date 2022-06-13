@@ -629,7 +629,7 @@ to attach them to the start of each source file to most effectively
 state the exclusion of warranty; and each file should have at least
 the "copyright" line and a pointer to where the full notice is found.
 
-    Wakeup is a simple python script that generates and sends a Wake-on-Lan magic
+    YAWoL is a simple Python script that generates and sends a Wake-on-Lan magic
     packet to the specified MAC address
 
     Copyright (C) 2022  Marco Simone Zuppone
