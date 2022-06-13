@@ -8,11 +8,11 @@ Wake-on-Lan magic packet generator
 **1.1**
 
 ## DESCRIPTION
-**wakeup** is a simple python script that generates and sends a Wake-on-Lan magic packet to the specified MAC address.
+**wakeup** is a simple Python script that generates and sends a Wake-on-Lan magic packet to the specified MAC address.
 
 The script is given **AS IS** and it is under the **AGPL Aferro license 3.0**.
 
-For more information about the license terms please refer tot the **LICENSE** file distributed with the project.
+For more information about the license terms please refer to the **LICENSE** file distributed with the project.
 ## USAGE
 
 **wakeup.py** **MACAddress** [**--port** port] [**--times** times] [**--interval** interval]
