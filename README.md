@@ -34,7 +34,9 @@ The program requires **Python 3**. It was tested and developed under **Python 3.
 ## Special thanks
 &nbsp;
 
-<a href="https://www.jetbrains.com/?from=WoL"><img src=images/jetbrains-variant-3.png width=100></a>Many thanks to <a href="https://www.jetbrains.com/?from=WoL">JetBrains</a> for giving us the <b>Open Source License</b> for free with the full access to their developer suite.
+<a href="https://www.jetbrains.com/?from=WoL"><img src=images/jetbrains-variant-3.png width=100></a>Many thanks to <a href="https://www.jetbrains.com/?from=WoL">JetBrains</a> for giving us the <b>Open Source License</b> for free with the full access to their developer suite until September 2022.
+
+<img src=images/supporting-member-badge.png width=100>
 
 ## COPYRIGHT & LICENSE
   Copyright(C) 2022  Marco S. Zuppone - msz@msz.eu - https://msz.eu
