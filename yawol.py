@@ -42,11 +42,12 @@ if __name__ == '__main__':
                         help="Interval, in seconds, between packets")
     args = parser.parse_args()
     chars = set('0123456789abcdefABCDEF')
+    theMACAddress = args.MACAddress
     for old, new in REPLACEMENTS:
-        args.MACAddress.replace(old, new)
-    if len(args.MACAddress) != 12 and not (all((c in chars) for c in args.MACAddress)):
+        theMACAddress=theMACAddress.replace(old, new)
+    if len(theMACAddress) != 12 or not (all((c in chars) for c in theMACAddress)):
         print("the MAC Address needs to be hexadecimal without spaces or signs between one byte and the other and the "
-              "bytes need to be 6")
+              "bytes need to be 6. E.g.: AABBCCDDEE11")
         sys.exit()
     if args.times < 1:
         args.times = 1
@@ -57,7 +58,7 @@ if __name__ == '__main__':
         sys.exit()
     # pass to wol the mac address of the ethernet port of the appliance to wakeup
     for x in range(args.times):
-        wol(bytearray.fromhex(args.MACAddress), args.port)
+        wol(bytearray.fromhex(theMACAddress), args.port)
         if x + 1 != args.times:
             time.sleep(args.interval)
     print("The End")
