@@ -5,7 +5,7 @@ Wake-on-Lan magic packet generator
  **yawol**
 ## VERSION
 
-**1.1.1**
+**1.2**
 
 ## DESCRIPTION
 **yawol** is a simple Python script that generates and sends a Wake-on-Lan magic packet to the specified MAC address.
