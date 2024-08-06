@@ -39,7 +39,7 @@ The program requires **Python 3**. It was tested and developed under **Python 3.
 <img src=images/supporting-member-badge.png width=100>
 
 ## COPYRIGHT & LICENSE
-  Copyright(C) 2022  Marco S. Zuppone - msz@msz.eu - https://msz.eu
+  Copyright(C) 2022-2024  Marco S. Zuppone - msz@msz.eu - https://msz.eu
 
   This program is free software: you can redistribute it and/or modify
   it under the terms of the GNU Affero General Public License as
